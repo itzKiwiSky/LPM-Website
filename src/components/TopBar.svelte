@@ -1,5 +1,3 @@
-<script lang="ts"></script>
-
 <style>
     @keyframes bounceInOut {
         0% {
@@ -26,11 +24,12 @@
 
     .topbar-container 
     {
+        position: fixed;
         background-color: black;
         display: flex;
         align-items: center;
 
-        clip-path: polygon(0% 0%, 72% 0%, 60% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 80% 0%, 70% 100%, 0% 100%);
     }
 
     .logo-topbar 
@@ -46,12 +45,12 @@
 
     .navbar
     {
-        padding-left: 4%;
-        width: 50%;
+        width: 60%;
     }
 
     .navbar a
     {
+        text-align: center;
         color: white;
         text-decoration: none;
         font-size: 165%;
@@ -81,7 +80,7 @@
     <div class="topbar-container">
         <img src="logo_lpm_placeholder.svg" alt="" class="logo-topbar">
         <nav class="navbar">
-            <a href="#">Sobre Nos</a>
+            <a href="#about">Sobre Nos</a>
             <a href="#">Integrantes</a>
             <a href="#">Projetos</a>
             <a href="#">Assets</a>
