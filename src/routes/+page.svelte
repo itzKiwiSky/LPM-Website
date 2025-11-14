@@ -1,49 +1,35 @@
+<script>
+    import TopBar from "../components/TopBar.svelte";
+
+</script>
 <style>
-.container
-{
-    background-color: #260f3a;
-}
+    .container
+    {
+        background-color: #260f3a;
+        height: 100vh;
+        color: white;
+    }
 
-.image-inicio
-{
-    width: 75%;
-    height: 75%;
-    border-radius: 25px;
-}
+    .center-page
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-.image-container
-{
-    display: flex;
-    justify-content: center;
-}
+    .cat-deco
+    {
+        image-rendering: pixelated;
+        width: 30%;
+    }
 
-.wave-footer
-{
-    aspect-ratio: 1920/1080;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.layer-footer
-{
-    height: 10%;
-    background-image: url('wave_footer.svg');
-}
-
-footer
-{
-    background-color: #47246d;
-}
 </style>
 
 <div class="container">
-    <div class="image-container">
-        <img class="image-inicio" src="sexo.png" alt="">
+    <TopBar/>
+    <div class="center-page">
+        <img src="cat_pixel.gif" alt="" class="cat-deco">
+        <h1>Criando universos desde 2025</h1>
     </div>
-
-    <div class="wave-footer layer-footer"></div>
-    <footer>
-
-    </footer>
 </div>
