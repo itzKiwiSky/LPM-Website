@@ -81,6 +81,11 @@
         );
     }
 
+    .wave.top
+    {
+        transform: translateY(0.5px);
+    }
+
     /* Inverter para a onda de baixo */
     .wave.bottom {
         transform: rotate(180deg);

@@ -1,5 +1,6 @@
 <script>
     import About from "../components/About.svelte";
+    import Footer from "../components/Footer.svelte";
     import Separator from "../components/Separator.svelte";
     import TopBar from "../components/TopBar.svelte";
 
@@ -36,4 +37,5 @@
     </div>
     <Separator linewidth={0.5} sepmargin={5}/>
     <About/>
+    <Footer/>
 </div>

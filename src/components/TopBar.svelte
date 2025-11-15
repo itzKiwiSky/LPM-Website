@@ -30,6 +30,8 @@
         align-items: center;
 
         clip-path: polygon(0% 0%, 80% 0%, 70% 100%, 0% 100%);
+
+        z-index: 1000;
     }
 
     .logo-topbar 
@@ -39,7 +41,8 @@
         transition: 0.3s;
     }
 
-    .logo-topbar:hover {
+    .logo-topbar:hover 
+    {
         animation: bounceInOut 1s ease-in-out;
     }
 
