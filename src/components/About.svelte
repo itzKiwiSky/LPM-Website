@@ -88,7 +88,7 @@
 
     /* Inverter para a onda de baixo */
     .wave.bottom {
-        transform: rotate(180deg);
+        transform: rotate(180deg) translateY(0.75px);
     }
 
     .content
@@ -104,6 +104,45 @@
         & p
         {
             font-size: 140%;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 800px) 
+    {
+        .content
+        {
+            text-shadow: 0 0 20px white;
+
+            & h1
+            {
+                font-size: 180%;
+                margin-bottom: 2.5%;
+            }
+
+            & p
+            {
+                font-size: 90%;
+            }
+        }
+    }
+
+    @media (max-width: 420px) 
+    {
+        .content
+        {
+            text-shadow: 0 0 20px white;
+
+            & h1
+            {
+                font-size: 160%;
+                margin-bottom: 2.5%;
+            }
+
+            & p
+            {
+                font-size: 60%;
+            }
         }
     }
 </style>

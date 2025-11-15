@@ -39,7 +39,7 @@
 
     .logo-brand
     {
-        width: 20%;
+        width: 22%;
         transition: 0.25s ease-in-out;
     }
 
@@ -78,11 +78,12 @@
         <div class="wave top"></div>
 
         <div class="content" id="about">
-            <img src="logo_lpm_placeholder.svg" alt="" class="logo-brand">
+            <img src="logo.svg" alt="" class="logo-brand">
             <div class="socials-brand">
                 <a href="https://lpmstudios.itch.io"><img src="itchio-logo.svg" alt=""></a>
                 <a href="https://github.com/LPMGameStudio"><img src="github-logo.svg" alt=""></a>
                 <a href="https://www.instagram.com/lpm_gamestudios"><img src="instagram-logo.svg" alt=""></a>
+                <a href="https://www.youtube.com/@LPM-gamestudio"><img src="youtube-logo.svg" alt=""></a>
             </div>
         </div>
     </div>

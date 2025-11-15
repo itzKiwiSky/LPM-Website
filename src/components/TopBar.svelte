@@ -71,17 +71,21 @@
     @media (max-width: 800px) 
     {
         .logo-topbar { width: 20%; }
+
+        .navbar a { font-size: 105%; }
     }
 
     @media (max-width: 420px) 
     {
         .logo-topbar { width: 28%; }
+
+        .navbar a { font-size: 70%; }
     }
 </style>
 
 <div class="container">
     <div class="topbar-container">
-        <img src="logo_lpm_placeholder.svg" alt="" class="logo-topbar">
+        <img src="logo.svg" alt="" class="logo-topbar">
         <nav class="navbar">
             <a href="#about">Sobre Nos</a>
             <a href="#">Integrantes</a>
