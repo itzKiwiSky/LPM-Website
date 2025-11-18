@@ -6,6 +6,7 @@
     .container
     {
         margin-top: 10%;
+        position: fixed;
     }
 
     .wave-section {
@@ -73,7 +74,7 @@
     }
 </style>
 
-<div class="container">
+<footer class="container">
     <div class="wave-section">
         <div class="wave top"></div>
 
@@ -87,4 +88,4 @@
             </div>
         </div>
     </div>
-</div>
+</footer>

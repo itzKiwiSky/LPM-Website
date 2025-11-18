@@ -89,7 +89,7 @@
         <nav class="navbar">
             <a href="#about">Sobre Nos</a>
             <a href="#">Integrantes</a>
-            <a href="#">Projetos</a>
+            <a href="/projects">Projetos</a>
             <a href="#">Assets</a>
         </nav>
     </div>
